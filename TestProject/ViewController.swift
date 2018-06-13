@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.lightGray
+        
+        changeBackgroundColor()
+    }
+    
+    func changeBackgroundColor() {
+        self.view.backgroundColor = UIColor.lightGray
     }
 
     override func didReceiveMemoryWarning() {
